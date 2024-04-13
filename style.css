@@ -1,0 +1,334 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Body Things */
+
+body{
+    display: grid;
+    grid-template-columns: 260px auto;
+    font-family: 'DM Sans', sans-serif;
+    
+
+}
+
+
+/* Left Side */
+
+
+.left{
+    display: grid;
+    grid-template-rows: auto 100px;
+    background-color: rgba(0, 0, 0, 0.969);
+}
+.left-top{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 0px;
+}
+
+#btn1{
+    height: 40px;
+    width: 192px;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    padding-right: 75px;
+    font-size: 14px;
+
+}
+
+#btn1 i{
+    padding: 0px 10px;
+
+}
+#btn2{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-left: 5px;
+    color: white;
+    background-color: black;
+
+}
+
+.left-bottom{
+    border-top: 1px solid gray;
+    display: grid;
+    
+    
+}
+
+#btn3 {
+    border: none;
+    display: grid;
+    grid-template-columns: 42px 118px 83px;
+    font-size: 15px;
+    padding: 10px 0px;
+    color: white;
+    background-color: black;
+    margin: 0px 8px;
+    margin-top: 6px;
+    border-radius: 6px;
+}
+.new{
+    display: inline;
+    border-radius: 6px;
+    background-color: rgb(243, 243, 144);
+    color: black;
+    margin: 0px 20px;
+    font-style: oblique;
+}
+
+#btn4{
+    border: none;
+    display: grid;
+    grid-template-columns: 0px 205px 29px;
+    align-items: center;
+    font-size: 15px;
+    padding-top: 10px 0px;
+    color: white;
+    background-color: black;
+    margin: 0px 8px;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+
+
+#btn4 img{
+    height: 35px;
+    border-radius: 3px;
+}
+
+
+
+
+/* Right Side */
+
+.right{
+    background-color: rgba(35, 38, 47, 0.922);
+}
+
+
+/* Top */
+
+.right-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4px 4px;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 160px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px 0px;
+    border: 0.2px solid white;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    margin: -2px 0px;
+}
+
+.btn i{
+    margin: 0px 17px;
+  
+}
+
+#btn5{
+    margin-right: 2px;
+}
+#btn5:focus{
+    background-color: gray;
+}
+#btn5 i{
+    margin-left: 0px;
+    color: rgb(7, 219, 7);
+}
+
+#btn6{
+    margin-left: 2px;
+}
+
+/* Body */
+
+.right-body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.right-heading{
+    margin-top: 70px;
+    margin-bottom: 55px;
+    font-size: 23px;
+    color: white;
+
+
+}
+
+.right-content{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+    
+}
+
+.examples i{
+    color: white;
+    font-size: 30px;
+}
+.capabilites i{
+    color: white;
+    font-size: 30px;
+}
+.limitations i{
+    color: white;
+    font-size: 30px;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.examples button{
+    display: block;
+    border: 2px solid grey;
+    background-color: gray;
+    border-radius: 6px;
+    margin: 18px 6px;
+    color: white;
+    height: 60px;
+    width: 250px;
+}
+
+.fa-arrow-right:before {
+    content: "\f061";
+    font-size: 15px;
+}
+
+.limitations div{
+    border: 2px solid grey;
+    background-color: gray;
+    border-radius: 6px;
+    margin: 15px 6px;
+    color: white;
+    height: 60px;
+    width: 250px;
+}
+.capabilites div{
+    border: 2px solid grey;
+    background-color: gray;
+    border-radius: 6px;
+    margin: 15px 6px;
+    color: white;
+    height: 60px;
+    width: 250px;
+}
+
+
+/* Search Area */
+
+.search{
+    margin-top: 64px;
+    margin-bottom: 42px;
+    
+}
+.search input{
+    width: 670px;
+    height: 50px;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 2px 2px 14px black;
+}
+
+.search button{
+    width: 46px;
+    height: 53px;
+    background-color: grey;
+    color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 14px black;
+
+}
+
+.right-bottom{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.right-bottom a{
+    color: white;
+
+}
+
+
+
+
+
+/* All Hover & Active styling */
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover{
+    background-color: rgba(128, 128, 128, 0.332);
+}
+
+#btn1:active, #btn2:active, #btn3:active, #btn4:active,  #btn6:active{
+    background-color: gray;
+    border-color: grey;
+    
+}
+
+.examples button:hover{
+    background-color: black;
+    cursor: pointer;
+    border-color: black;
+    
+}
+
+.search button:hover{
+    background-color: black;
+    cursor: pointer;
+    border-color: black;
+    
+    
+
+}
+.search button:active{
+    background-color: grey;
+    border-color: white;
+    
+    
+
+}
+
+
+
+
+
+
+/* Media Quries */
+
+/* @media screen and (min-width:1055) {
+    
+    body{
+        background-color: aqua;
+    }
+    
+} */
